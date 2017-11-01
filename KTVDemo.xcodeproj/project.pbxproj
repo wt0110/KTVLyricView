@@ -20,7 +20,7 @@
 		93B73E8A1FA863040050CBCA /* LXMLyricsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B73E891FA863040050CBCA /* LXMLyricsLabel.m */; };
 		93C08CB91FA96F7F00F15AC2 /* yest.zrce in Resources */ = {isa = PBXBuildFile; fileRef = 93C08CB81FA96F7F00F15AC2 /* yest.zrce */; };
 		93C08CBB1FA96F8E00F15AC2 /* yest_ori.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93C08CBA1FA96F8E00F15AC2 /* yest_ori.mp3 */; };
-		93C08CBE1FA9CE1600F15AC2 /* QTLryicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C08CBD1FA9CE1600F15AC2 /* QTLryicView.m */; };
+		93C08CBE1FA9CE1600F15AC2 /* QTLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C08CBD1FA9CE1600F15AC2 /* QTLyricView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +43,8 @@
 		93B73E891FA863040050CBCA /* LXMLyricsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMLyricsLabel.m; sourceTree = "<group>"; };
 		93C08CB81FA96F7F00F15AC2 /* yest.zrce */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yest.zrce; sourceTree = "<group>"; };
 		93C08CBA1FA96F8E00F15AC2 /* yest_ori.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yest_ori.mp3; sourceTree = "<group>"; };
-		93C08CBC1FA9CE1600F15AC2 /* QTLryicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTLryicView.h; sourceTree = "<group>"; };
-		93C08CBD1FA9CE1600F15AC2 /* QTLryicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTLryicView.m; sourceTree = "<group>"; };
+		93C08CBC1FA9CE1600F15AC2 /* QTLyricView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTLyricView.h; sourceTree = "<group>"; };
+		93C08CBD1FA9CE1600F15AC2 /* QTLyricView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTLyricView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,8 @@
 				93B73E731FA7105A0050CBCA /* main.m */,
 				93B73E831FA724CF0050CBCA /* QTLyricObject.h */,
 				93B73E841FA724CF0050CBCA /* QTLyricObject.m */,
-				93C08CBC1FA9CE1600F15AC2 /* QTLryicView.h */,
-				93C08CBD1FA9CE1600F15AC2 /* QTLryicView.m */,
+				93C08CBC1FA9CE1600F15AC2 /* QTLyricView.h */,
+				93C08CBD1FA9CE1600F15AC2 /* QTLyricView.m */,
 				93B73E881FA863030050CBCA /* LXMLyricsLabel.h */,
 				93B73E891FA863040050CBCA /* LXMLyricsLabel.m */,
 			);
@@ -180,7 +180,7 @@
 				93B73E8A1FA863040050CBCA /* LXMLyricsLabel.m in Sources */,
 				93B73E851FA724CF0050CBCA /* QTLyricObject.m in Sources */,
 				93B73E691FA7105A0050CBCA /* ViewController.m in Sources */,
-				93C08CBE1FA9CE1600F15AC2 /* QTLryicView.m in Sources */,
+				93C08CBE1FA9CE1600F15AC2 /* QTLyricView.m in Sources */,
 				93B73E741FA7105A0050CBCA /* main.m in Sources */,
 				93B73E661FA7105A0050CBCA /* AppDelegate.m in Sources */,
 			);

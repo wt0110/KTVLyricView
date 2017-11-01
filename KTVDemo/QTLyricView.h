@@ -18,7 +18,7 @@
 
 @interface QTLyricView : UIView
 @property (nonatomic, strong)id<QTLyricViewDelegate> delegate;
-@property (nonatomic, strong)QTLyricObject *object;
+@property (nonatomic, strong)QTLyricObject *lyric;
 
 @property (nonatomic, strong)UIColor *hightLightColor;
 @property (nonatomic, strong)UIColor *normalColor;
