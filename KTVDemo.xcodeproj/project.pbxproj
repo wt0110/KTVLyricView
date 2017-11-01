@@ -13,6 +13,14 @@
 		93B73E6E1FA7105A0050CBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B73E6D1FA7105A0050CBCA /* Assets.xcassets */; };
 		93B73E711FA7105A0050CBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B73E6F1FA7105A0050CBCA /* LaunchScreen.storyboard */; };
 		93B73E741FA7105A0050CBCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B73E731FA7105A0050CBCA /* main.m */; };
+		93B73E7D1FA713BE0050CBCA /* 稻香_ori.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93B73E7A1FA713BE0050CBCA /* 稻香_ori.mp3 */; };
+		93B73E7E1FA713BE0050CBCA /* 稻香.zrce in Resources */ = {isa = PBXBuildFile; fileRef = 93B73E7B1FA713BE0050CBCA /* 稻香.zrce */; };
+		93B73E7F1FA713BE0050CBCA /* 稻香_acc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93B73E7C1FA713BE0050CBCA /* 稻香_acc.mp3 */; };
+		93B73E851FA724CF0050CBCA /* QTLyricObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B73E841FA724CF0050CBCA /* QTLyricObject.m */; };
+		93B73E8A1FA863040050CBCA /* LXMLyricsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B73E891FA863040050CBCA /* LXMLyricsLabel.m */; };
+		93C08CB91FA96F7F00F15AC2 /* yest.zrce in Resources */ = {isa = PBXBuildFile; fileRef = 93C08CB81FA96F7F00F15AC2 /* yest.zrce */; };
+		93C08CBB1FA96F8E00F15AC2 /* yest_ori.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93C08CBA1FA96F8E00F15AC2 /* yest_ori.mp3 */; };
+		93C08CBE1FA9CE1600F15AC2 /* QTLryicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C08CBD1FA9CE1600F15AC2 /* QTLryicView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,17 @@
 		93B73E701FA7105A0050CBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B73E721FA7105A0050CBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93B73E731FA7105A0050CBCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B73E7A1FA713BE0050CBCA /* 稻香_ori.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "稻香_ori.mp3"; sourceTree = "<group>"; };
+		93B73E7B1FA713BE0050CBCA /* 稻香.zrce */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稻香.zrce"; sourceTree = "<group>"; };
+		93B73E7C1FA713BE0050CBCA /* 稻香_acc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "稻香_acc.mp3"; sourceTree = "<group>"; };
+		93B73E831FA724CF0050CBCA /* QTLyricObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTLyricObject.h; sourceTree = "<group>"; };
+		93B73E841FA724CF0050CBCA /* QTLyricObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTLyricObject.m; sourceTree = "<group>"; };
+		93B73E881FA863030050CBCA /* LXMLyricsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMLyricsLabel.h; sourceTree = "<group>"; };
+		93B73E891FA863040050CBCA /* LXMLyricsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMLyricsLabel.m; sourceTree = "<group>"; };
+		93C08CB81FA96F7F00F15AC2 /* yest.zrce */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yest.zrce; sourceTree = "<group>"; };
+		93C08CBA1FA96F8E00F15AC2 /* yest_ori.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yest_ori.mp3; sourceTree = "<group>"; };
+		93C08CBC1FA9CE1600F15AC2 /* QTLryicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTLryicView.h; sourceTree = "<group>"; };
+		93C08CBD1FA9CE1600F15AC2 /* QTLryicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTLryicView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +81,22 @@
 				93B73E651FA7105A0050CBCA /* AppDelegate.m */,
 				93B73E671FA7105A0050CBCA /* ViewController.h */,
 				93B73E681FA7105A0050CBCA /* ViewController.m */,
+				93B73E7C1FA713BE0050CBCA /* 稻香_acc.mp3 */,
+				93B73E7A1FA713BE0050CBCA /* 稻香_ori.mp3 */,
+				93B73E7B1FA713BE0050CBCA /* 稻香.zrce */,
+				93C08CBA1FA96F8E00F15AC2 /* yest_ori.mp3 */,
+				93C08CB81FA96F7F00F15AC2 /* yest.zrce */,
 				93B73E6A1FA7105A0050CBCA /* Main.storyboard */,
 				93B73E6D1FA7105A0050CBCA /* Assets.xcassets */,
 				93B73E6F1FA7105A0050CBCA /* LaunchScreen.storyboard */,
 				93B73E721FA7105A0050CBCA /* Info.plist */,
 				93B73E731FA7105A0050CBCA /* main.m */,
+				93B73E831FA724CF0050CBCA /* QTLyricObject.h */,
+				93B73E841FA724CF0050CBCA /* QTLyricObject.m */,
+				93C08CBC1FA9CE1600F15AC2 /* QTLryicView.h */,
+				93C08CBD1FA9CE1600F15AC2 /* QTLryicView.m */,
+				93B73E881FA863030050CBCA /* LXMLyricsLabel.h */,
+				93B73E891FA863040050CBCA /* LXMLyricsLabel.m */,
 			);
 			path = KTVDemo;
 			sourceTree = "<group>";
@@ -129,9 +159,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C08CBB1FA96F8E00F15AC2 /* yest_ori.mp3 in Resources */,
+				93B73E7F1FA713BE0050CBCA /* 稻香_acc.mp3 in Resources */,
 				93B73E711FA7105A0050CBCA /* LaunchScreen.storyboard in Resources */,
+				93B73E7E1FA713BE0050CBCA /* 稻香.zrce in Resources */,
+				93B73E7D1FA713BE0050CBCA /* 稻香_ori.mp3 in Resources */,
 				93B73E6E1FA7105A0050CBCA /* Assets.xcassets in Resources */,
 				93B73E6C1FA7105A0050CBCA /* Main.storyboard in Resources */,
+				93C08CB91FA96F7F00F15AC2 /* yest.zrce in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B73E8A1FA863040050CBCA /* LXMLyricsLabel.m in Sources */,
+				93B73E851FA724CF0050CBCA /* QTLyricObject.m in Sources */,
 				93B73E691FA7105A0050CBCA /* ViewController.m in Sources */,
+				93C08CBE1FA9CE1600F15AC2 /* QTLryicView.m in Sources */,
 				93B73E741FA7105A0050CBCA /* main.m in Sources */,
 				93B73E661FA7105A0050CBCA /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UR7DYAP8G6;
 				INFOPLIST_FILE = KTVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sl.KTVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UR7DYAP8G6;
 				INFOPLIST_FILE = KTVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sl.KTVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
